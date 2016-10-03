@@ -1,0 +1,62 @@
+﻿@model IEnumerable<TestWork.Models.Book>
+@{
+    ViewBag.Title = "Index";
+    List<TestWork.Models.Author> authors = ViewBag.Authors;
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<h5>Найти книгу по названию или автору</h5>
+@using (Ajax.BeginForm("TableWithBooks", FormMethod.Post, new AjaxOptions { UpdateTargetId = "table" }))
+{
+    <input type="text" name="value" id="txt" />
+    <input type="submit" id="sub" style="display:none;" />
+
+}
+
+<div id="table">@Html.Partial("TableWithBooks", Model)</div>
+
+<h2>Добавить книгу</h2>
+
+    <lable>Название</lable>
+    <input type="text" name="name" id="name"/><br />
+    <lable>Жанр</lable>
+    <input type="text" name="genre" id="genre"/><br />
+    <label>Выберите автора из существующих</label>
+    <select name="author" id="auth">
+        @foreach (var item in authors)
+        {
+            <option>@item.Name</option>
+        }
+    </select><br />
+    <label>Или добавьте нового</label>
+    <input type="text" name="new_author" id="new_auth"/><br />
+
+    <input type="submit" id="add" value="Добавить"/>
+
+
+<script>
+    $("#txt").keyup(function () {
+        $("#sub").click();
+    });
+    $("#add").click(function () {
+        var name = $("#name").val();
+        var author = $("#auth").val();
+        var new_author = $("#new_auth").val();
+        var genre = $("#genre").val();
+        $.ajax({
+
+            type: "POST",
+            url: "/Home/AddNewBook?name=" + name + "&author=" + author + "&new_author=" + new_author + "&genre=" + genre,
+            contentType: false,
+            processData: false,
+            success: function (result) {
+                $("#sub").click();
+
+            },
+            error: function (xhr, status, p3) {
+                alert(xhr.responseText);
+            }
+        });
+    })
+</script>
