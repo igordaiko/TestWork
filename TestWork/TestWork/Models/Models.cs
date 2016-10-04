@@ -12,7 +12,7 @@ namespace TestWork.Models
         public Author Author { get; set; }
         public string Genre { get; set; }
     }
-    
+
     public class Author
     {
         public int Id { get; set; }

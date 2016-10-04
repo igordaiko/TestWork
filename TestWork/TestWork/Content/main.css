@@ -1,0 +1,55 @@
+body{
+}
+.text-al{
+  text-align: center;
+}
+.but{
+  border: 2px solid #000;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  background: transparent;
+}
+.but:focus,
+.but:hover{
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+::-webkit-input-placeholder {color:#000; }
+::-moz-placeholder          {color:#000; }
+:-moz-placeholder           {color:#000; }
+:-ms-input-placeholder      {color:#000; }
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+input[type="text"] {
+    width: 100%;
+    height: 36px;
+    margin: 10px 0;
+    border: 2px solid #000;
+    text-align: center;
+    background: transparent;
+}
+input[type="text"]:focus,
+input[type="text"]:hover{
+  border: 2px solid #fff;
+}
+select{
+  width: 100%;
+  height: 36px;
+  margin: 10px 0;
+  border: 2px solid #000;
+  text-align: center;
+  background: transparent;
+  text-align-last: center;
+}
+input[type="text"]:focus{
+  outline: none;
+}
+tr {
+    border-bottom: 2px solid #000;
+}

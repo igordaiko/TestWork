@@ -2,27 +2,29 @@
 @{
     ViewBag.Title = "Index";
 }
-<table class="table">
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Жанр</th>
-            <th>Автор</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<div class="row">
+
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.Name</td>
-                <td>@item.Genre</td>
-                <td>@item.Author.Name</td>
+                <th>Название</th>
+                <th>Жанр</th>
+                <th>Автор</th>
             </tr>
-        }
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Genre</td>
+                    <td>@item.Author.Name</td>
+                </tr>
+            }
 
-    </tbody>
-</table>
-
+        </tbody>
+    </table>
+</div>
 
 
 

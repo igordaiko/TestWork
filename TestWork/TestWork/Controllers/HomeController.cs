@@ -13,28 +13,27 @@ namespace TestWork.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<CodeContext>());
+            //Database.SetInitializer(new DropCreateDatabaseAlways<CodeContext>());
             using (var context = new CodeContext())
             {
 
                 //Заполнение базы
-                Author author1 = new Author { Name = "М. Пьюзо" };
-                Author author2 = new Author { Name = "Г. Шилдт" };
-                Author author3 = new Author { Name = "Ч. Диккенс" };
+                if (context.Books.Count() == 0)
+                {
+                    Author author1 = new Author { Name = "М. Пьюзо" };
+                    Author author2 = new Author { Name = "Г. Шилдт" };
+                    Author author3 = new Author { Name = "Ч. Диккенс" };
 
-                Book book1 = new Book { Name = "Крестный отец", Genre = "Криминальный жанр", Author = author1 };
-                Book book2 = new Book { Name = "C# 4.0 Полное руководство", Genre = "Техническая литература", Author = author2 };
-                Book book3 = new Book { Name = "Приключения Оливера твиста", Genre = "Приключения", Author = author3 };
+                    Book book1 = new Book { Name = "Крестный отец", Genre = "Криминальный жанр", Author = author1 };
+                    Book book2 = new Book { Name = "C# 4.0 Полное руководство", Genre = "Техническая литература", Author = author2 };
+                    Book book3 = new Book { Name = "Приключения Оливера твиста", Genre = "Приключения", Author = author3 };
+                    context.Books.Add(book1);
+                    context.Books.Add(book2);
+                    context.Books.Add(book3);
 
+                    context.SaveChanges();
 
-
-                context.Books.Add(book1);
-                context.Books.Add(book2);
-                context.Books.Add(book3);
-
-                context.SaveChanges();
-
-
+                }
 
                 context.Authors.ToList();
                 ViewBag.Authors = context.Authors.ToList();
@@ -65,7 +64,7 @@ namespace TestWork.Controllers
                     auth = new Author { Name = new_author };
                 else
                     auth = context.Authors.First(a => a.Name == author);
-                Book book = new Book { Name = name, Genre = genre, Author = auth};
+                Book book = new Book { Name = name, Genre = genre, Author = auth };
                 context.Books.Add(book);
                 context.SaveChanges();
                 List<Book> model = context.Books.ToList();

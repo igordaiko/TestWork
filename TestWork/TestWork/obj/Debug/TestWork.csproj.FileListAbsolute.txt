@@ -1,44 +1,43 @@
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\csc.exe
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.CSharp.Core.targets
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\System.Collections.Immutable.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\System.Reflection.Metadata.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\vbc.exe
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\VBCSCompiler.exe
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\roslyn\VBCSCompiler.exe.config
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\TestWork.dll.config
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\TestWork.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\TestWork.pdb
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\EntityFramework.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\EntityFramework.SqlServer.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\GridMvc.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\Microsoft.Web.Infrastructure.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Helpers.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Mvc.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Razor.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.Deployment.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.Razor.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\EntityFramework.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\EntityFramework.SqlServer.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Razor.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.Deployment.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Webpages.Razor.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Helpers.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\System.Web.Mvc.xml
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Razor.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Webpages.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Webpages.Deployment.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Webpages.Razor.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Helpers.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\bin\ru\System.Web.Mvc.resources.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\obj\Debug\TestWork.csprojResolveAssemblyReference.cache
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\obj\Debug\TestWork.dll
-c:\users\daiko\documents\visual studio 2015\Projects\TestWork\TestWork\obj\Debug\TestWork.pdb
+C:\Users\Daiko\Desktop\TestWork\TestWork\obj\Debug\TestWork.csprojResolveAssemblyReference.cache
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\csc.exe
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\vbc.exe
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\VBCSCompiler.exe
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\TestWork.dll.config
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\TestWork.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\TestWork.pdb
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\EntityFramework.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\EntityFramework.SqlServer.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Helpers.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Mvc.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Razor.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.Razor.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\EntityFramework.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\EntityFramework.SqlServer.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Razor.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Webpages.Razor.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Helpers.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\System.Web.Mvc.xml
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\obj\Debug\TestWork.dll
+C:\Users\Daiko\Desktop\TestWork\TestWork\obj\Debug\TestWork.pdb
